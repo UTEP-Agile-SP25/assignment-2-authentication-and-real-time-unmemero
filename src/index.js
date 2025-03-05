@@ -5,6 +5,17 @@ import 'firebase/auth';
 import { auth } from './config.js';
 import { onAuthStateChanged } from 'firebase/auth';
 
+onAuthStateChanged(auth, (user) => {
+    // Check if we're not on the login page (index.html)
+    if (!user && !window.location.pathname.endsWith('index.html')) {
+        console.log('User is not logged in, redirecting to login page');
+        window.location.href = './index.html';
+    } else if (user) {
+        console.log('User is logged in');
+    }
+});
+
+
 const signupForm = document.querySelector('#signup-form');
 const loginForm = document.querySelector('#login-form');
 
