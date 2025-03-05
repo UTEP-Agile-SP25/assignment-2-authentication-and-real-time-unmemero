@@ -1,0 +1,35 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "Cool login excercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"AI will take over the world\");",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UTEP-Agile-SP25/assignment-2-authentication-and-real-time-unmemero.git"
+  },
+  "keywords": [
+    "firebase",
+    "authentication",
+    "Mejia",
+    "Rafa",
+    "js",
+    "node"
+  ],
+  "author": "Rafael Garcia",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/UTEP-Agile-SP25/assignment-2-authentication-and-real-time-unmemero/issues"
+  },
+  "homepage": "https://github.com/UTEP-Agile-SP25/assignment-2-authentication-and-real-time-unmemero#readme",
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "firebase": "^11.4.0",
+    "firebase-admin": "^13.1.0"
+  }
+}

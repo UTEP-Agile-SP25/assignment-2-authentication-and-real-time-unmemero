@@ -1,0 +1,40 @@
+[34948:0304/141619.158694:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[34902:0304/141619.271715:ERROR:mime_util_xdg.cc(137)] Invalid mime.cache file does not contain null prior to ALIAS_LIST_OFFSET=44
+[MobX] Since strict-mode is enabled, changing (observed) observable values without using an action is not allowed. Tried to modify: Settings@13.store
+[36mFerdium Migration:[0m [0m 🧙‍  Running database migration wizard
+[32minfo[39m: serving app on http://localhost:46569
+[36mFerdium Migration:[0m [0m 🔧  Nothing to migrate, already on the newest version
+[34902:0304/141620.228599:ERROR:nss_util.cc(345)] After loading Root Certs, loaded==false: NSS error code: -8018
+[34948:0304/141626.929135:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[35048:0304/141626.932164:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+(node:35007) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:ce334ff1-6446-4b94-a89d-d0d1700d3f6d listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `exe --trace-warnings ...` to show where the warning was created)
+[34948:0304/141630.446643:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+Checking for update
+Update for version 7.0.0 is not available (latest version: 7.0.0, downgrade is disallowed).
+(node:35007) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:769e5f43-ce87-4d3b-90f4-960f6840d6b8 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[36025:0304/142631.377893:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+[36039:0304/142633.735942:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+[36025:0304/142633.790799:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+[36025:0304/142633.821814:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+[36025:0304/142633.864604:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+Checking for update
+Update for version 7.0.0 is not available (latest version: 7.0.0, downgrade is disallowed).
+[39603:0304/152134.235335:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+(node:35007) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:55733263-822a-43b2-bc2d-4ba5e426fa08 listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:35007) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:5cd29b2b-fdf7-425e-b6ea-142f861a6fdb listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:35007) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 select-capture-device:49cb88bc-a637-4db8-a05f-83bf7147b43d listeners added to [IpcRenderer]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+Checking for update
+Update for version 7.0.0 is not available (latest version: 7.0.0, downgrade is disallowed).
+[34970:0304/163828.370151:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163828.370274:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163828.562588:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163828.562624:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163828.956721:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163828.956770:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163829.745153:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163829.745227:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163831.328141:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163831.328220:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163834.496225:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
+[34970:0304/163834.496297:ERROR:quic_connection.cc(2840)] Fails to find on path connection IDs
