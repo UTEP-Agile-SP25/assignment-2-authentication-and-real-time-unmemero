@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="header-left">
+            <h1><a href="songList.html">Music App</a></h1>
+            <a href="./songList.html">Song List</a>
+            <a href="./song_manager.html">Dashboard</a>
+        </div>
+        <div id="header-middle"></div>
+        <div id="header-right">
+            <div id="usernamebox">
+                <img src="../src/assets/img/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <p id="username-text">Sample Username</p>
+            </div>
+            <button id="logout">Logout</button>
+        </div>
+    </header>
+    <div id="song-manager-container">
+        <h1>Add Song</h1>
+        <form action="post" class="add-song" id="add-song-form">
+            <input type="text" name="title" id="title" placeholder="Title" required> <br>
+            <input type="text" name="artist" id="artist" placeholder="Artist" required> <br>
+            <input type="text" name="genre" id="genre" placeholder="Genre" required> <br>
+            <input type="text" name="year" id="year" placeholder="Year" required> <br>
+            <button type="button" id="addSongBtn">Add song</button>
+        </form>
+    
+        <h1>Delete Song</h1>
+        <form action="post" class="delete-song" id="delete-song-form">
+            <select name="song" id="deletable-songs" required></select> <br>
+            <button type="button" id="deleteSongBtn">Delete Song</button>
+        </form>
+
+        <h1>Update Song</h1>
+        <form action="post" class="update-song" id="update-song-form">
+            <select name="song" id="update-select" required></select> <br>
+            <button type="button" id="selectSongToUpdate">Select</button>
+        </form>
+    </div>
+
+
+</body>
+<script type="module" src="./index.bundle.js"></script>
+</html>

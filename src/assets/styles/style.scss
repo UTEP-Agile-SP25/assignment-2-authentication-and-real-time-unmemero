@@ -1,0 +1,139 @@
+$utepblue: #012169;
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        border: gray 3px solid;
+        border-radius: 5px;
+        padding: 10px;
+        color: green;
+        background: black;
+        &.btn{
+            background: blue;
+            color: white;
+            transition: ease-in-out 0.3s;
+            &:hover{
+                background: green;
+            }
+        }
+    }
+    p{
+        a{
+            text-decoration: none;
+            &:hover{
+                color: green
+            }
+            &:visited{
+                color: blue;
+            }
+        }
+    }
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, blue, green);
+    color: white;
+    gap: 20px;
+    #header-left{
+        display: flex;
+;
+        align-items: center;
+        max-width: 33vw;
+        gap:30px;
+        h1{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            &:hover{
+                color: green;
+            }
+            &:visited{
+                color: white;
+            }
+            &:active{
+                color: red;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            transition: ease-in-out 0.3s;
+            &:hover{
+                color: rgb(107, 212, 107);
+            }
+            &:visited{
+                color: white;
+            }
+            &:active{
+                color: red;
+            }
+        }
+    }
+    #header-middle{
+        width: 33vw;
+    }
+    #header-right{
+        max-width: 33vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        & #usernamebox{
+            display: flex;
+            align-items: center;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+        & #logout{
+            border: solid 3px gray;
+            border-radius: 5px;
+            padding: 10px;
+            background: black;
+            color: white;
+            transition: ease-in-out 0.3s;
+            &:hover{
+                background: blue;
+            }
+            transition: ease-in-out 0.3s;
+            &:active{
+                background: green;
+            }
+        }
+    }
+}
+
+table{
+    width: 70vw;
+    border-collapse: collapse;
+    td, th {
+        border: 1px solid white;
+        text-align: center;
+    }
+    td{
+        padding: 10px;
+    }
+}

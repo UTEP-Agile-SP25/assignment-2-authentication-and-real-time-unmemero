@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=play_arrow" />
+</head>
+<body>
+    <header>
+        <div id="header-left">
+            <h1><a href="songList.html">Music App</a></h1>
+            <a href="./songList.html">Song List</a>
+            <a href="./song_manager.html">Dashboard</a>
+        </div>
+        <div id="header-middle"></div>
+        <div id="header-right">
+            <div id="usernamebox">
+                <img src="../src/assets/img/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <p id="username-text">Sample Username</p>
+            </div>
+            <button id="logout">Logout</button>
+        </div>
+    </header>
+
+    <h1>Song List</h1>
+
+    <table>
+        <thead>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Genre</th>
+            <th>Year</th>
+            <th>Play</th>
+        </thead>
+        <tbody id="song-list">
+            <!-- <tr>
+                <td>Sample Title</td>
+                <td>Sample Artist</td>
+                <td>Sample Genre</td>
+                <td>Sample Year</td>
+                <td><button>Play</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+</body>
+<script type="module" src="./index.bundle.js"></script>
+</html>

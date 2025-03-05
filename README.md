@@ -3,15 +3,15 @@
 
 Follow the steps below to complete this assignment:  
 
-## 1. Setup and Cloning  
+[x] 1. Setup and Cloning  
 - Clone this assignment repository.  
 - Set up the project using your **LASTNAME Sandbox** for your Firebase Project.  
 
-## 2. User Creation  
+[x] 2. User Creation  
 - Programmatically create a user.  
 - Add a **screenshots folder** showing this process.  
 
-## 3. Additional HTML Page  
+[x] 3. Additional HTML Page  
 - Create an additional **HTML page** for user profile creation.  
 - Ensure this page is **redirected** from `index.html` upon account creation.  
 
