@@ -23,7 +23,7 @@ Follow the steps below to complete this assignment:
 - Implement **sign-in** and **sign-out** functionalities programmatically.  
 - Capture **console screenshots** showing these changes *(refer to the video example)*.  
 
-## 6. Browser Persistence  
+[x] Browser Persistence  
 - Demonstrate that a user remains signed in across multiple HTML pages.  
 - Provide **screenshots** as evidence.  
 
